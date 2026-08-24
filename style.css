@@ -4,7 +4,7 @@ html {
 }
 
 .navi {
-    position: fixed;
+    position: fixed !important;
     z-index: 99999;
     background-color: black;
 }
@@ -39,7 +39,7 @@ html {
 @media screen and (max-width : 600px) {
 
     .navi {
-        position: sticky;
+        position: sticky !important;
         top: 0;
     }
 
@@ -53,5 +53,7 @@ html {
 
     .s2 {
         position: static;
+        top: 0;
+        left: 0;
     }
 }
